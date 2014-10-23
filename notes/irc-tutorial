@@ -1,0 +1,74 @@
+IRC- Internet Relay chat
+
+This simple tutorial on IRC(Internet Relay Chat).
+
+What is irc?
+it is nothing but a server client chat program, which is mainly designed for group 
+chat(within the group chat private messaging is also possible).
+for more deatails read:- http://en.wikipedia.org/wiki/Internet_Relay_Chat
+
+Why irc?
+There are so many chat programs like facebook messenger, whatsapp,
+line etc. All of them are free!!!(not actually!) and they dont sell ads. But 
+actually what they are doing is selling our data. 
+eg: http://www.propublica.org/article/yes-companies-are-harvesting-and-selling-your-social-media-profiles
+
+	joining  irc is not thatmuch easy as joining in facebook or whatsapp etc.
+But one thing that you can assure that nobody is going to do anything with your
+data.
+
+How to join?
+step1: download Appication
+	So many applications and APIs available now(just goolge 'irc clients'), 
+But, for beginners, best way is to use an Application called "xchat".
+you can downlad it from their official website:- http://xchat.org/
+for ubuntu users: sudo apt-get install xchat
+
+step2: registration and joining channels
+then you want to put some details like
+nick name	: <a name> (a name others actually see)
+second choice	: <another name> (another choice, you can put anything 
+		                 related to your first nick)
+third choice	: <another one> 	"
+
+from networks box i suggest you to choose Ubuntu server(freenode-server) and 
+click connect.
+* or you can choose any other servers(most popular servers and channels are
+given at the end of this tuturial). 
+After this step a window will come-up with bunch of channels, choose one and 
+click join and close the window. And also you can use commands to join in a 
+channel(for finding peoples that of your kind, google " <ur fav topic> irc channel") 
+NB:you haven't registered your Nick(nick name) yet!.
+for registration type: /msg NickServ <a password> <email address>
+	-> you can put simple or complex password.
+then you will receive a mail with "\msg .." command. copy this command and paste in 
+your xchat application. Done!
+
+you can use any number of channels(groups) at a time.
+add them using command: /join <#channel>
+for more commands see:
+	http://www.ircbeginner.com/ircinfo/ircc-commands.html
+
+
+
+How to make my own channel(group)?
+	Yes, you can create your own channel.
+type:
+	/join ##mychannelname
+
+-> single # referes to official channels, several communities, developers etc. have
+   official channels, eventhough you can make offical channels(but, not recommended).
+   eg: #ubuntu,#debian etc.
+-> ## refers private channels.(recommended)
+
+
+
+most popula networks: freenode, IRCnet, EFnet.
+freenode channels: #gnu, ##C, #debian, #ubuntu, #python, #haskell, #xubuntu,
+		   etc.
+
+
+useful links: 
+https://freenode.net/faq.shtml
+
+
