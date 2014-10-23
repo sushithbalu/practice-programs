@@ -1,0 +1,9 @@
+ELF SATISFIER 
+	It is a tool which can create portable, selfcontaining linux executables 
+by linking all necessory library files with the dynamically linked executable 
+file. 
+
+more details:
+http://statifier.sourceforge.net/
+
+
