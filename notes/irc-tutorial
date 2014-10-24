@@ -4,7 +4,7 @@ This simple tutorial on IRC(Internet Relay Chat).
 
 What is irc?
 it is nothing but a server client chat program, which is mainly designed for group 
-chat(within the group chat private messaging is also possible).
+chat(within the group chat private messaging is also possible). 
 for more deatails read:- http://en.wikipedia.org/wiki/Internet_Relay_Chat
 
 Why irc?
@@ -51,9 +51,13 @@ for more commands see:
 
 
 
-How to make my own channel(group)?
-	Yes, you can create your own channel.
-type:
+How to make my own chat room(or channel or group)?
+	Yes, you can create your own channel. First you need a name for your 
+chat room, but you can't have a name that already exists. So chek wether it is
+ already Registered or not by the following command: 
+			 /msg ChnServ info  ##mychannelname
+
+Once you have found a name, create the channel by typing:
 	/join ##mychannelname
 
 -> single # referes to official channels, several communities, developers etc. have
@@ -61,12 +65,9 @@ type:
    eg: #ubuntu,#debian etc.
 -> ## refers private channels.(recommended)
 
-
-
 most popula networks: freenode, IRCnet, EFnet.
 freenode channels: #gnu, ##C, #debian, #ubuntu, #python, #haskell, #xubuntu,
 		   etc.
-
 
 useful links: 
 https://freenode.net/faq.shtml
