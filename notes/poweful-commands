@@ -1,0 +1,11 @@
+_______________________________________________________________________________
+Commands create a bootable Ubuntu USB flash drive:
+first format and umount USB then
+method1:
+	 sudo dd if=input.iso of=/dev/sdb
+method2:
+	sudo cat input.iso > /dev/sdb
+_______________________________________________________________________________
+
+
+

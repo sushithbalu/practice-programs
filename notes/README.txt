@@ -1,5 +1,6 @@
 				_notes_
-
--> elf satisfier
--> Tutorial on IRC
+_____
+     |-> elf satisfier
+     |-> Tutorial on IRC
+     |-> Poweful Commandline tools
 
