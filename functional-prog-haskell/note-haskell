@@ -1,2 +1,12 @@
 HASKELL- A Pure Functional Programming Language
 
+Key-points:
+	-> It is a LAZY language
+	-> Everything is Immutable 
+	-> Haskell Doesn't follow "inner first" or "outer first" strategy
+	-> Funtions-no parenthessis around parameters
+	-> List__
+		 \__/ internally it is linked list(c linked list)
+		  |_/ pattern matching is possible
+		  |_/ list comprehension
+
