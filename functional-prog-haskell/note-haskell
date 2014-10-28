@@ -4,9 +4,33 @@ Key-points:
 	-> It is a LAZY language
 	-> Everything is Immutable 
 	-> Haskell Doesn't follow "inner first" or "outer first" strategy
-	-> Funtions-no parenthessis around parameters
+	-> Funtions- no parenthessis around parameters
 	-> List__
 		 \__/ internally it is linked list(c linked list)
 		  |_/ pattern matching is possible
 		  |_/ list comprehension
+		  |_/ length, head, tail, last, init, reverse, null.
+		  |_/ sum [1..45]
+	-> Tuple__
+		  \__/
 
+	-> variables must start with lower-case or symbol.Anything starting
+	   with an upper-case or : is a term or type constructor.
+	
+
+ghci commands:
+	:quit	quit ghci.
+	:load	- for loading code. eg: :load code.hs
+	:set editor - it is possible to edit code within ghci, before 
+		      editing we ned to set editor. eg: set editor vi. 
+	:edit	- for editing code.
+	:reload	- ghci doesnot automatically detect change in scipt,
+			  use reload command befor new definitions.
+	:type	- shows type. eg: i = 10; :type i ; i :: integer.
+	
+
+
+mathematics		Haskell		Description
+	-> f(x,y) 	f x y		function with two parameters
+	-> f(x,y)	x `f` y		eg:average = sum ns `dev` length ns
+	
