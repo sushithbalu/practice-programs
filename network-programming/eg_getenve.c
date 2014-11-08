@@ -5,7 +5,7 @@ int main ()
 {
    printf("PATH : %s\n", getenv("PATH"));
    printf("HOME : %s\n", getenv("HOME"));
-   printf("ROOT : %s\n", getenv("ROOT"));
+   printf("PWD : %s\n", getenv("PWD"));
 
    return(0);
 }
