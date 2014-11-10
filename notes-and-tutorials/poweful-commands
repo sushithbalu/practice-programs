@@ -10,4 +10,8 @@ _______________________________________________________________________________
 dpkg -s <package name> - gives all necessory details
 
 _______________________________________________________________________________
+connecting wifi through commandline
 
+nmcli dev wifi list
+nmcli dev wifi connect "SSID" password "PASSWORD"
+_______________________________________________________________________________
