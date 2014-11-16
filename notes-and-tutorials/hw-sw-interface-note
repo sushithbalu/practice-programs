@@ -1,0 +1,14 @@
+HARDWARE AND SOFTWARE INTERFACE-coursera course
+
+sections:
+
+section1: Memory Data and Addressing
+
+section11: Comparing Java and C
+ -> int, float, double pointer representations in Java are same as in C.
+ -> But pointers are not general in Java.
+ -> Array in java;
+	-> first element- number of elements in array.
+	-> elements in array initialized to zero.
+ -> Objects(structs in c) can only include primitive datatypes.(no composite)
+
