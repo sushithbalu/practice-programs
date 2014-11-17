@@ -1,0 +1,29 @@
+	__CONCURRENCY__
+
+ a. Multi threading
+ b. atomicity, critical session, Mutual exclussive, Mutex/lock, Race condition,
+    mutex and semaphore.
+ c. IPC(Inter Process Communication)
+	1. shared memory
+	2. semaphore
+	3. message queue
+
+ a. Multi threading
+	_POSIX threads_read man page.
+	pthread_create- pthread_creat 
+
+
+
+
+
+
+atomicity:- 
+	a fuction is atomic if no switching occures within the execution of that
+function occures.
+critical session:-
+	critical session is set of code which modify common shared objct.
+mutual exclussive:-
+	a critical session should be mutually exclussive.
+
+
+refer: wiki pages, thread.pdf and class note.

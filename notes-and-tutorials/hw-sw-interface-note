@@ -1,14 +1,26 @@
 HARDWARE AND SOFTWARE INTERFACE-coursera course
 
-sections:
+Sections:
 
 section1: Memory Data and Addressing
 
 section11: Comparing Java and C
  -> int, float, double pointer representations in Java are same as in C.
  -> But pointers are not general in Java.
+ -> Characters and strings;
+	-> Two byte Unicode is used.
+	-> string not bounded by '\0'.
  -> Array in java;
 	-> first element- number of elements in array.
 	-> elements in array initialized to zero.
- -> Objects(structs in c) can only include primitive datatypes.(no composite)
+ -> Objects(structs in c) can only include primitive data types.(no composite)
+
+ -> In Java all variables are references to objects.
+
+Creating Objects in Java
+	4 steps to create an object. 
+	-> specify fields (int, double, float..)
+	-> Constructor (x = 0, y = 0)
+	-> method (same place..)
+	-> creation (point newPoint = new point())
 
